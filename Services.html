@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NASH — Our Services</title>
+    <meta name="description" content="Explore candle customization, gift packaging, event decor, and wholesale options from NASH.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-bg {
+            background: linear-gradient(120deg, rgba(255, 247, 230, 0.95), rgba(255, 249, 240, 0.85));
+        }
+    </style>
+</head>
+
+<body class="antialiased text-slate-800">
+
+    <!-- NAVBAR -->
+    <nav class="fixed w-full z-30 bg-white/70 backdrop-blur-sm shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <img src="Nash symbol.png" alt="Wax candles" height="40" width="40">
+                    <h2><b>NASH</b></h2>
+                </div>
+                <div class="hidden md:flex md:items-center md:space-x-6">
+                    <a href="index.html" class="hover:text-amber-600">Home</a>
+                    <a href="Product.html" class="hover:text-amber-600">Products</a>
+                    <a href="Services.html" class="text-amber-600 font-semibold">Services</a>
+                    <a href="About.html" class="hover:text-amber-600">About</a>
+                    <a href="Contact.html" class="hover:text-amber-600">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menuBtn" class="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden border-t">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="index.html" class="block">Home</a>
+                <a href="Product.html" class="block">Products</a>
+                <a href="Services.html" class="block text-amber-600">Services</a>
+                <a href="About.html" class="block">About</a>
+                <a href="Contact.html" class="block">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero-bg pt-28 pb-16 text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h1 class="text-5xl font-extrabold leading-tight">Our Candle Services</h1>
+            <p class="mt-4 text-lg text-slate-600">From custom creations to event setups — NASH offers personalized services to make your spaces glow with warmth and aroma.</p>
+        </div>
+    </header>
+
+    <!-- SERVICES GRID -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+            <!-- SERVICE 1 -->
+            <div class="p-6 rounded-2xl shadow-lg hover:shadow-2xl transition bg-gradient-to-b from-amber-50 to-white">
+
+                <h3 class="text-xl font-semibold mb-2 text-amber-700">✨ Custom Candle Design</h3>
+                <p class="text-slate-600 mb-3">Choose your scent, color, and jar style. Our artisans handcraft each candle to suit your aesthetic and personality.</p>
+                <ul class="text-sm text-slate-500 list-disc pl-5">
+                    <li>Custom labels & packaging</li>
+                    <li>Over 30 scent combinations</li>
+                    <li>Personalized wax blends</li>
+                </ul>
+            </div>
+
+            <!-- SERVICE 2 -->
+            <div class="p-6 rounded-2xl shadow-lg hover:shadow-2xl transition bg-gradient-to-b from-amber-50 to-white">
+
+                <h3 class="text-xl font-semibold mb-2 text-amber-700">🎁 Luxury Gift Packaging</h3>
+                <p class="text-slate-600 mb-3">Make your gifts unforgettable. We offer eco-friendly wrapping, premium boxes, and custom notes for every occasion.</p>
+                <ul class="text-sm text-slate-500 list-disc pl-5">
+                    <li>Festive & corporate gifting</li>
+                    <li>Eco-friendly materials</li>
+                    <li>Bulk order discounts</li>
+                </ul>
+            </div>
+
+            <!-- SERVICE 3 -->
+            <div class="p-6 rounded-2xl shadow-lg hover:shadow-2xl transition bg-gradient-to-b from-amber-50 to-white">
+
+                <h3 class="text-xl font-semibold mb-2 text-amber-700">💍 Event Candle Decor</h3>
+                <p class="text-slate-600 mb-3">Add a warm ambiance to weddings, parties, and corporate events with our elegant candle decor setups.</p>
+                <ul class="text-sm text-slate-500 list-disc pl-5">
+                    <li>On-site setup and delivery</li>
+                    <li>Decor styling consultation</li>
+                    <li>Theme-based arrangements</li>
+                </ul>
+            </div>
+
+            <!-- SERVICE 4 -->
+            <div class="p-6 rounded-2xl shadow-lg hover:shadow-2xl transition bg-gradient-to-b from-amber-50 to-white">
+
+                <h3 class="text-xl font-semibold mb-2 text-amber-700">🏷 Wholesale & Retail Supply</h3>
+                <p class="text-slate-600 mb-3">Partner with us to stock NASH candles in your stores or online shops with flexible pricing and bulk options.</p>
+                <ul class="text-sm text-slate-500 list-disc pl-5">
+                    <li>Low MOQ (Minimum Order Quantity)</li>
+                    <li>Private label options</li>
+                    <li>Worldwide shipping</li>
+                </ul>
+            </div>
+
+            <!-- SERVICE 5 -->
+            <div class="p-6 rounded-2xl shadow-lg hover:shadow-2xl transition bg-gradient-to-b from-amber-50 to-white">
+
+                <h3 class="text-xl font-semibold mb-2 text-amber-700">📦 Candle Subscription Box</h3>
+                <p class="text-slate-600 mb-3">Enjoy a new scent each month with our curated candle boxes. Perfect for yourself or as a thoughtful gift.</p>
+                <ul class="text-sm text-slate-500 list-disc pl-5">
+                    <li>Monthly or quarterly plans</li>
+                    <li>Exclusive limited editions</li>
+                    <li>Cancel anytime</li>
+                </ul>
+            </div>
+
+            <!-- SERVICE 6 -->
+            <div class="p-6 rounded-2xl shadow-lg hover:shadow-2xl transition bg-gradient-to-b from-amber-50 to-white">
+
+                <h3 class="text-xl font-semibold mb-2 text-amber-700">🕯 Candle-Making Workshops</h3>
+                <p class="text-slate-600 mb-3">Join our interactive sessions to learn the art of candle making from NASH experts — perfect for groups or individuals.</p>
+                <ul class="text-sm text-slate-500 list-disc pl-5">
+                    <li>Hands-on experience</li>
+                    <li>All materials provided</li>
+                    <li>Take home your creation</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="py-16 bg-amber-100 text-center">
+        <h2 class="text-3xl font-bold mb-3">Interested in Our Services?</h2>
+        <p class="text-slate-700 mb-6">Contact us to customize your order, book a workshop, or plan event decor with NASH candles.</p>
+        <a href="Contact.html" class="px-6 py-3 bg-amber-500 text-white rounded-lg font-semibold hover:bg-amber-600">Contact Us</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 bg-white border-t text-center text-sm text-slate-600">
+        <div class="flex justify-center items-center gap-3 mb-3">
+            <img src="Nash symbol.png" alt="Logo" height="40" width="40">
+            <div class="font-semibold">NASH</div>
+        </div>
+        <div>© <span id="year"></span> NASH — All rights reserved.</div>
+    </footer>
+
+    <script>
+        document.getElementById('menuBtn').addEventListener('click', () => {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        });
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
